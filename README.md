@@ -6,4 +6,4 @@
 ### Experience
 
 ![Local Image](Experiencia.jpg)
-<img src="images/my_image.jpg" alt="Alt Text" width="300" />
+<img src="images/my_image.jpg" alt="Alt Text" width="50" />
