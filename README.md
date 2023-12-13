@@ -12,3 +12,8 @@
 + Six years programming with object-oriented languages}
   
 ![Local Image](Experiencia.jpg)
+
+### Contact
++ [Github](https://github.com/SantiVillaRam7)
++ [Tweeter (X)](https://twitter.com/SantiagoVR49)
++ [Mail]("Mailto:santiagovillaram7@gmail.com")
