@@ -13,7 +13,7 @@
   
 ![Local Image](Experiencia.jpg)
 
-### Contact
+### Contact info
++ svillas4@itam.mx
 + [Github](https://github.com/SantiVillaRam7)
 + [Tweeter (X)](https://twitter.com/SantiagoVR49)
-+ [Mail](santiagovillaram7@gmail.com)
