@@ -2,9 +2,3 @@ title: Santiago Villasenor Ramirez
 logo: Foto.jpeg
 show_downloads: true
 theme: jekyll-theme-minimal
-show_sidebar: true
-
-external:
-  - {title: Mail, icon: envelope, url: "mailto:santiagovillaram7@gmail.com"}
-  - {title: Github, icon: github, url: "https://github.com/SantiVillaRam7"}
-  - {title: Twitter, icon: twitter, url: "https://twitter.com/SantiagoVR49"}
