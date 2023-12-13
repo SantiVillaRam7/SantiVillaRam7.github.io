@@ -3,7 +3,7 @@ logo: Foto.jpeg
 show_downloads: true
 theme: jekyll-theme-minimal
 
-show_excerpts: true        # show article excerpts on the home page
+show_sidebar: true        # show a sidebar instead of the usual header
 
 external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
   - {title: Mail, icon: envelope, url: "mailto:santiagovillaram7@gmail.com"}
