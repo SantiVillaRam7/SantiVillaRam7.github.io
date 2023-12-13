@@ -2,3 +2,8 @@ title: Santiago Villasenor Ramirez
 logo: Foto.jpeg
 show_downloads: true
 theme: jekyll-theme-minimal
+
+external:                  # shows a footer with social links - for available icons see fontawesome.com/icons
+  - {title: Mail, icon: envelope, url: "mailto:santiagovillaram7@gmail.com"}
+  - {title: Github, icon: github, url: "https://github.com/SantiVillaRam7"}
+  - {title: Tweeter, icon: tweeter, url: "https://twitter.com/SantiagoVR49"}
