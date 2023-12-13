@@ -10,9 +10,7 @@
 + Four years of model UN
 
 + Six years programming with object-oriented languages
-  
 ![Local Image](Experiencia.jpg)
-
 ### Contact info
 + svillas4@itam.mx
 + [Github](https://github.com/SantiVillaRam7)
