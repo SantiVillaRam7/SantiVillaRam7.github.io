@@ -11,10 +11,12 @@
 
 + Six years programming with object-oriented languages
 ![Local Image](Experiencia.jpg)
+
 ### Intereses
 + [Ciencia de datos](https://www.linkedin.com/pulse/blog-santiago-villasenor-cckte/)
 + [NFL](https://www.linkedin.com/pulse/texans-2023-nfl-draft-santiago-villasenor-htafe/)
 + [Letterboxed](https://boxd.it/e0xcc)
++ 
 ### Contact info
 + svillas4@itam.mx
 + [Github](https://github.com/SantiVillaRam7)
