@@ -9,7 +9,7 @@
 
 + Four years of model UN
 
-+ Six years programming with object-oriented languages
++ Four years programming with object-oriented languages
 ![Local Image](Experiencia.jpg)
 
 ### Projects
