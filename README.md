@@ -19,7 +19,7 @@
 + [NFL](https://www.linkedin.com/pulse/texans-2023-nfl-draft-santiago-villasenor-htafe/)
 + [Letterboxed](https://boxd.it/e0xcc)
 + 
-### Contact info
+### Contacto
 + svillas4@itam.mx
 + [Github](https://github.com/SantiVillaRam7)
 + [Tweeter (X)](https://twitter.com/SantiagoVR49)
