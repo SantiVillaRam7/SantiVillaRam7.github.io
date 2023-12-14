@@ -12,7 +12,8 @@
 + Six years programming with object-oriented languages
 ![Local Image](Experiencia.jpg)
 ### Blog
-+ [Click aquí](https://www.linkedin.com/pulse/blog-santiago-villasenor-cckte/)
++ [Ciencia de datos](https://www.linkedin.com/pulse/blog-santiago-villasenor-cckte/)
++ 
 ### Contact info
 + svillas4@itam.mx
 + [Github](https://github.com/SantiVillaRam7)
