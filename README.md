@@ -13,7 +13,7 @@
 ![Local Image](Experiencia.jpg)
 ### Blog
 + [Ciencia de datos](https://www.linkedin.com/pulse/blog-santiago-villasenor-cckte/)
-+ 
++ [NFL](https://www.linkedin.com/pulse/texans-2023-nfl-draft-santiago-villasenor-htafe/)
 ### Contact info
 + svillas4@itam.mx
 + [Github](https://github.com/SantiVillaRam7)
