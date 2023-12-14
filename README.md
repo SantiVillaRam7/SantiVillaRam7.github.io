@@ -22,5 +22,5 @@
 ### Contact info
 + svillas4@itam.mx
 + [Github](https://github.com/SantiVillaRam7)
-+ [Tweeter (X)](https://twitter.com/SantiagoVR49)
++ [Twitter (X)](https://twitter.com/SantiagoVR49)
 + [LinkedIn](https://www.linkedin.com/in/santiago-villasenor-ba350b2a4/)
