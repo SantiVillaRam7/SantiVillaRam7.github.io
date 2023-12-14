@@ -1,4 +1,4 @@
-# Data Scientist
+# Data Science Student
 
 ### Education
 + Studied at the Modern American School (elementary and highschool)
