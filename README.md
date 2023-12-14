@@ -12,8 +12,10 @@
 + Six years programming with object-oriented languages
 ![Local Image](Experiencia.jpg)
 
-### Intereses
+### Proyectos
 + [Ciencia de datos](https://www.linkedin.com/pulse/blog-santiago-villasenor-cckte/)
+
+### Intereses
 + [NFL](https://www.linkedin.com/pulse/texans-2023-nfl-draft-santiago-villasenor-htafe/)
 + [Letterboxed](https://boxd.it/e0xcc)
 + 
