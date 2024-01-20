@@ -1,26 +1,51 @@
-# Data Science Student
+---
+title: "Graficar Anscombe"
+output:
+  html_document: default
+  pdf_document: default
+date: "2022-12-23"
+---
 
-### Education
-+ Studied at the Modern American School (elementary and highschool)
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
 
-+ Studies Data Science at Instituto Tecnologico Autonomo de Mexico (ITAM)
+Veamos el dataset y sus estadísticas para verificar resultados:
 
-### Experience
+```{r anscombe, echo=TRUE}
+head(anscombe,3)
+miX <-anscombe[,1]
+miY <-anscombe[,5]
+mean(miX); mean(miY);
+cor(miX,miY);
+```
+Ahora graficamos los puntos junto con una regresión lineal
 
-+ Four years of model UN
+```{r}
+plot(miX,miY,col="blue",pch=19,xlim=c(3,19),ylim=c(3,13))
+abline(lm(miY~miX),col="orange",lwd=3)
+```
 
-+ Four years programming with object-oriented languages
-![Local Image](Experiencia.jpg)
+Este es el código para hacerlo en loops:
 
-### Projects
-+ [Data Science](https://www.linkedin.com/pulse/blog-santiago-villasenor-cckte/)
+```{r}
 
-### Interests
-+ [NFL](https://www.linkedin.com/pulse/texans-2023-nfl-draft-santiago-villasenor-htafe/)
-+ [Letterboxed](https://boxd.it/e0xcc)
+ff <- y ~ x
+mods <- setNames(as.list(1:4), paste0("lm", 1:4))
+for(i in 1:4) {
+  ff[2:3] <- lapply(paste0(c("y","x"), i), as.name)
+  ## or   ff[[2]] <- as.name(paste0("y", i))
+  ##      ff[[3]] <- as.name(paste0("x", i))
+  mods[[i]] <- lmi <- lm(ff, data = anscombe)
+  # print(anova(lmi))
+}
 
-### Contact info
-+ svillas4@itam.mx
-+ [Github](https://github.com/SantiVillaRam7)
-+ [Twitter (X)](https://twitter.com/SantiagoVR49)
-+ [LinkedIn](https://www.linkedin.com/in/santiago-villasenor-ba350b2a4/)
+op <- par(mfrow = c(2, 2), mar = 0.1+c(4,4,1,1), oma =  c(0, 0, 2, 0))
+for(i in 1:4) {
+  ff[2:3] <- lapply(paste0(c("y","x"), i), as.name)
+  plot(ff, data = anscombe, col = "blue", pch = 19, cex = 1.2,
+       xlim = c(3, 19), ylim = c(3, 13))
+  abline(mods[[i]], col = "orange")
+}
+par(op)
+```
