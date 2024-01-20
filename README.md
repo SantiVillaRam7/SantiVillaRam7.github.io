@@ -1,14 +1,10 @@
 ---
-title: "Graficar Anscombe"
-output:
-  html_document: default
-  pdf_document: default
-date: "2022-12-23"
+title: "Tarea Anscombe"
 ---
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
-```
+plot(anscombe$x2, anscombe$y2, main = "Segundo conjunto", pch = 19)
+abline(lm(miY~miX),col="orange",lwd=3)```
 
 Veamos el dataset y sus estadísticas para verificar resultados:
 
