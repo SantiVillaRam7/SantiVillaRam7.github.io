@@ -1,19 +1,10 @@
 ---
 title: "Tarea Anscombe"
 ---
-
+Segundo dataset:
 ```{r setup, include=FALSE}
 plot(anscombe$x2, anscombe$y2, main = "Segundo conjunto", pch = 19)
-abline(lm(miY~miX),col="orange",lwd=3)```
-
-Veamos el dataset y sus estadísticas para verificar resultados:
-
-```{r anscombe, echo=TRUE}
-head(anscombe,3)
-miX <-anscombe[,1]
-miY <-anscombe[,5]
-mean(miX); mean(miY);
-cor(miX,miY);
+abline(lm(miY~miX),col="orange",lwd=3)
 ```
 Ahora graficamos los puntos junto con una regresión lineal
 
